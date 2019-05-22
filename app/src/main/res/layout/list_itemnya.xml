@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#ffffff">
+
+
+    <LinearLayout
+        android:padding="20dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="nama"
+            android:id="@+id/nama"
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:text="nik"
+            android:id="@+id/nik"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#313030"
+            android:layout_weight="2"/>
+        <TextView
+            android:text="pekerjaan"
+            android:id="@+id/pekerjaan"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#313030"
+            android:layout_weight="2"/>
+        <TextView
+            android:text="kecamatan"
+            android:id="@+id/kecamatan"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#313030"
+            android:layout_weight="2"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="2"
+        android:gravity="center">
+
+
+        <ImageButton
+            android:layout_gravity="center"
+            android:background="#ffffff"
+            android:src="@drawable/detail"
+            android:id="@+id/update_btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="updateStudent"
+            android:text="Detail"
+            android:textColor="#ffffff" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
+

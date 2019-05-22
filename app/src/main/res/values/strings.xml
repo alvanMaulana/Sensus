@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Sensus</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <array name="teams">
+        <item>Blimbing</item>
+        <item>KedungKandang</item>
+        <item>Klojen</item>
+        <item>LowokWaru</item>
+        <item>Sukun</item>
+    </array>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@color/colorAccent"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:src="@mipmap/logosensus" />
+
+    <TextView
+        android:id="@+id/NamaUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:text="Sensus Penduduk"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <TextView
+        android:textSize="10dp"
+        android:id="@+id/EmailUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SensusPenduduk@gmail.com"
+        android:textColor="#0f0f0f"/>
+
+</LinearLayout>

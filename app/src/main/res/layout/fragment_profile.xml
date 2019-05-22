@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+ <ScrollView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+   <ImageView
+       android:layout_width="match_parent"
+       android:layout_height="250dp"
+       android:src="@mipmap/logosensus"
+       android:layout_margin="40dp"/>
+
+    <View android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#999999" />
+
+    <TextView
+        android:textSize="22dp"
+        android:text="Android Version 1.0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"/>
+    <View android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#999999" />
+
+    <TextView
+        android:textSize="22dp"
+        android:text="KamnusBahasaJawa@gmail.com"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"/>
+
+    <View android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#999999" />
+    <TextView
+        android:textSize="22dp"
+        android:text="Van Studio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"/>
+
+    <View android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#999999" />
+
+
+
+</LinearLayout>
+ </ScrollView>
+
+
+</RelativeLayout>

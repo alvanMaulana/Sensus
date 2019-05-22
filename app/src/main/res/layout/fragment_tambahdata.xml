@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/judul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tambah Data"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_marginBottom="40dp"
+            android:layout_marginTop="20dp"/>
+
+
+        <EditText
+            android:id="@+id/editTextHeroId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:hint="Name" />
+
+        <EditText
+            android:id="@+id/editTextPekerjaan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:hint="Pekerjaan" />
+
+        <EditText
+            android:id="@+id/editTextNik"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:hint="Nik"
+            android:inputType="numberDecimal"/>
+
+
+
+
+
+        <TextView
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:text="Kecamatan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Spinner
+            android:id="@+id/spinnerIdKecamatan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:entries="@array/teams" />
+        <TextView
+            android:id="@+id/id_pesensus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <Button
+            android:background="#279FDA"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="70dp"
+            android:id="@+id/buttonAddUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add" />
+
+        <Button
+           android:visibility="gone"
+            android:background="#D86860"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="10dp"
+            android:id="@+id/buttonDelete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete" />
+    </LinearLayout>
+
+
+
+</LinearLayout>
